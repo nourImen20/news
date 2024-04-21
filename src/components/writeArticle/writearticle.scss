@@ -1,0 +1,48 @@
+#writearticlepage {
+    margin-top: 120px;
+    margin-bottom: 60px; /* Add a semicolon here */
+}
+
+.write-article-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.write-article-header {
+    margin-bottom: 20px;
+}
+
+.article-title-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.write-article-content {
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add margin to separate from the button */
+    padding-bottom: 40px; /* Add padding to the bottom to prevent border overlap */
+}
+
+.quill-editor {
+    min-height: 400px; /* Increase the height of the content area */
+}
+
+.focused {
+    border-color: red; /* Example of focused style */
+}
+
+
+.publish-button-container {
+    text-align: center;
+
+
+.btn-outline-danger {
+    background-color: var(--color-button);
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    padding: 10px 25px; 
+    font-size: 18px;
+}
+}
